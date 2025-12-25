@@ -14,10 +14,12 @@ public class Addition {
 
         // Adding the numbers
         int sum = num1 + num2;
+        int sub=num1-num2;
 
         // Displaying result
         System.out.println("Addition = " + sum);
-
+         System.out.println("Substraction = " + sub);
+        
         sc.close();
     }
 }
